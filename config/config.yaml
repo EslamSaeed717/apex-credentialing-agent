@@ -1,1 +1,10 @@
-# placeholder
+target_country: Yemen
+world_bank_tier: low-income
+default_language: en
+scan_interval_hours: 6
+credential_alert_threshold: 70
+isr_formula: "(Impact * 10) / (Acquisition_Hours + 1)"
+max_concurrent_scrapers: 5
+proxy_rotation: true
+stealth_mode: true
+log_level: INFO

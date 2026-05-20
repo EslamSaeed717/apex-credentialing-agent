@@ -1,1 +1,29 @@
-# placeholder
+rate_limits:
+  default_delay_seconds: 3
+  max_retries: 5
+  backoff_factor: 2
+
+proxy_rotation:
+  enabled: true
+  provider: "rotating_proxy"
+  countries: ["YE", "SA", "AE", "US"]
+
+sites:
+  acams:
+    base_url: "https://www.acams.org"
+    cert_card: ".cert-card-title"
+    price_selector: ".price"
+    scholarship_page: "/en/scholarships"
+  coursera:
+    base_url: "https://www.coursera.org"
+    product_title: ".product-title"
+    price_selector: "[data-e2e='price']"
+    financial_aid: "/financial-aid"
+  udemy:
+    base_url: "https://www.udemy.com"
+    course_title: "h1.udlite-heading-xl"
+    price_selector: "[data-purpose='course-price-text']"
+  edx:
+    base_url: "https://www.edx.org"
+    course_title: ".course-title"
+    price_selector: ".price"

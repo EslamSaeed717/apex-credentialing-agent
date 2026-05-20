@@ -1,1 +1,6 @@
-# placeholder
+sendgrid_api_key: "${SENDGRID_API_KEY}"
+hunter_io_api_key: "${HUNTER_IO_API_KEY}"
+apify_api_key: "${APIFY_API_KEY}"
+credly_api_key: "${CREDLY_API_KEY}"
+openai_api_key: "${OPENAI_API_KEY}"
+telegram_bot_token: "${TELEGRAM_BOT_TOKEN}"

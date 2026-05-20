@@ -1,1 +1,16 @@
-# placeholder
+isr_formula: "ISR = (Impact * 10) / (Acquisition_Hours + 1)"
+weights:
+  impact: 0.60
+  speed: 0.25
+  cost_efficiency: 0.15
+
+impact_factors:
+  global_recognition: 10
+  regional_recognition: 6
+  employer_demand: 8
+  salary_uplift: 7
+
+thresholds:
+  high_priority: 8.0
+  medium_priority: 6.0
+  low_priority: 4.0

@@ -1,1 +1,57 @@
-# placeholder
+{
+  "name": "Eslam Saeed Ahmed Al-Wajeeh",
+  "title": "Senior AML & Financial Compliance Specialist",
+  "location": "Yemen",
+  "email": "eslam@apex-credentialing.com",
+  "linkedin": "https://www.linkedin.com/in/eslam-saeed",
+  "summary": "A highly experienced financial compliance professional with deep expertise in Anti-Money Laundering (AML), Counter-Terrorism Financing (CTF), and international banking regulations. Proven track record in the Yemeni banking and remittance sector with certifications from top regional institutions.",
+  "experience": [
+    {
+      "title": "AML Compliance Officer",
+      "company": "Tadhamon International Islamic Bank",
+      "duration": "2018 - Present",
+      "responsibilities": [
+        "Developed and implemented AML/CFT compliance frameworks",
+        "Conducted KYC/CDD due diligence for high-risk customers",
+        "Monitored suspicious transactions and filed STRs",
+        "Trained staff on AML regulations and best practices"
+      ]
+    },
+    {
+      "title": "Compliance Analyst",
+      "company": "Bin Dowal Exchange",
+      "duration": "2015 - 2018",
+      "responsibilities": [
+        "Managed domestic and international remittance compliance",
+        "Ensured FATF and OFAC sanctions screening",
+        "Prepared regulatory reports for the Central Bank of Yemen"
+      ]
+    }
+  ],
+  "certifications_owned": [
+    {
+      "name": "AML/CFT Certificate",
+      "provider": "Tadhamon International Islamic Bank",
+      "year": 2020
+    },
+    {
+      "name": "AML/CFT Certificate",
+      "provider": "Bin Dowal Bank",
+      "year": 2019
+    },
+    {
+      "name": "AML/CFT Certificate",
+      "provider": "Regional Banking Institute",
+      "year": 2018
+    }
+  ],
+  "target_certifications": ["CAMS", "CGSS", "CC_ISC2", "CIPP_E"],
+  "skills": [
+    "AML/CFT Compliance", "KYC/CDD", "Sanctions Screening",
+    "FATF Recommendations", "Regulatory Reporting",
+    "Financial Crime Investigation", "Risk Assessment",
+    "International Remittances", "Banking Systems"
+  ],
+  "languages": ["Arabic (Native)", "English (Professional)"],
+  "country_code": "YE"
+}

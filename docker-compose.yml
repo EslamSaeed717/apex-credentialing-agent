@@ -1,0 +1,28 @@
+version: "3.9"
+services:
+  apex-agent:
+    build: .
+    container_name: apex-credentialing-agent
+    restart: unless-stopped
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - SENDGRID_API_KEY=${SENDGRID_API_KEY}
+      - HUNTER_IO_API_KEY=${HUNTER_IO_API_KEY}
+      - APIFY_API_KEY=${APIFY_API_KEY}
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./memory:/app/memory
+    ports:
+      - "8080:8080"
+    command: python -m uvicorn dashboards.api:app --host 0.0.0.0 --port 8080
+
+  chromadb:
+    image: chromadb/chroma:latest
+    container_name: apex-chromadb
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./memory/vector_store:/chroma/chroma

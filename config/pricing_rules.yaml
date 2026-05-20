@@ -1,1 +1,25 @@
-# placeholder
+world_bank_tiers:
+  low_income:
+    countries: ["YE", "AF", "SD", "SO"]
+    discount_multiplier: 0.80
+  lower_middle_income:
+    countries: ["EG", "MA", "TN", "JO"]
+    discount_multiplier: 0.50
+
+known_discount_codes:
+  acams:
+    - code: "MEMBER20"
+      discount_pct: 20
+      source: "ACAMS Member Discount"
+    - code: "SCHOLARSHIP"
+      discount_pct: 100
+      source: "ACAMS Financial Aid"
+  coursera:
+    - code: "FINANCIAL_AID"
+      discount_pct: 100
+      source: "Coursera Financial Aid Program"
+
+beta_exam_sources:
+  - "https://www.comptia.org/certifications/which-certification/beta-exams"
+  - "https://learn.microsoft.com/en-us/certifications/beta-exams"
+  - "https://training.linuxfoundation.org/beta-exam-program/"

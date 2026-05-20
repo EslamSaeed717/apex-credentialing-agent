@@ -1,1 +1,6 @@
-# placeholder
+[
+  {"name": "CAMS", "provider": "ACAMS", "priority": 1, "isr_score": 9.8, "url": "https://www.acams.org/en/certifications/cams"},
+  {"name": "CGSS", "provider": "ACAMS", "priority": 2, "isr_score": 9.2, "url": "https://www.acams.org/en/certifications/cgss"},
+  {"name": "Certified in Cybersecurity (CC)", "provider": "ISC2", "priority": 3, "isr_score": 8.5, "url": "https://www.isc2.org/certifications/cc"},
+  {"name": "CIPP/E", "provider": "IAPP", "priority": 4, "isr_score": 8.9, "url": "https://iapp.org/certify/cipp/europe/"}
+]
